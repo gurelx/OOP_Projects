@@ -1,0 +1,23 @@
+/*****************************************************************************
+                          Workshop - #9
+Full Name  : Gurel Sezgin
+Student ID#: 174331215
+Email      : gurel-sezgin@myseneca.ca
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider.
+*****************************************************************************/
+In this workshop, I have solidified my understanding on the base and the derived classes.
+Designing, applying, and submitting this workshop was a fairly smooth process. The longest
+part I have spent debugging was the = operator overload of the HtmlText class. Since I was
+not calling the = operator of the base class inside it, the title of the file was being 
+assigned but not the content itself. It took me a while to realize to remember to call it 
+as well. 
+
+I also did not quite understand the method const char& Text::operator[](int index) const.
+The reason for that is in the document it specifically says that: "The behaviour of the 
+operator is not defined if the index goes out of bounds or if the content is null." But
+the method itself needed to return a char& value no matter if index is valid or not. So,
+I designed the index argument to reset to 0 if it goes beyond the m_content length so 
+that it would not give errors.

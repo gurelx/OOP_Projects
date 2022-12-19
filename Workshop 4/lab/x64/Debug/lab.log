@@ -1,0 +1,3 @@
+﻿  Seat.cpp
+C:\Users\Gürel\Desktop\Ders\OOP244\OOP-Workshops\WS04\lab\Seat.cpp(178): warning C4715: 'sdds::Seat::display': not all control paths return a value
+  lab.vcxproj -> C:\Users\Gürel\Desktop\Ders\OOP244\OOP-Workshops\WS04\lab\x64\Debug\lab.exe

@@ -1,0 +1,5 @@
+﻿  NameTag.cpp
+  TagList.cpp
+C:\Users\Gürel\Desktop\Ders\OOP244\OOP-Workshops\WS03\DIY\TagList.cpp(59,43): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  DIY.vcxproj -> C:\Users\Gürel\Desktop\Ders\OOP244\OOP-Workshops\WS03\DIY\x64\Debug\DIY.exe

@@ -1,0 +1,29 @@
+/*
+*****************************************************************************
+						  Workshop - #7 (P2)
+Full Name  : Gurel Sezgin
+Student ID#: 174331215
+Email      : gurel-sezgin@myseneca.ca
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+In this workshop, I have solidified my understanding about the syntax of base and derived classes.
+Buggy issues about this workshop was mainly about the wrong syntax. For example, to create my derived
+class I figured out that I have to use:
+
+class Dumper:public VehicleBasic
+
+'public' keyword was substantial here since main was using aDumper.NewAddress(destination) and
+without base class being public it could not access the NewAddress method.
+
+I also had to figure out how to call the base constructor to initialize the derived constructor.
+I have tried to call the constructor itself inside the Dumper constructor but gcc gave errors. So 
+I have used this in my definition:
+
+Dumper::Dumper(const char* plateNo, const int year, int capacity, const char* address) : VehicleBasic(plateNo, year)
+

@@ -1,0 +1,17 @@
+/*****************************************************************************
+                          Workshop - #10
+Full Name  : Gurel Sezgin
+Student ID#: 174331215
+Email      : gurel-sezgin@myseneca.ca
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider.
+*****************************************************************************/
+
+In this workshop, I have practised the function and class templates, but to me 
+it was more of a practise of reading the existing code and adding to it. Most of
+my time in this workshop was allocated for understanding what the existing code 
+does. I also spend some time to figure out how to put a template argument inside
+a template function. I also struggled a reasonable time since I forgot to surround
+my function with namespace sdds.
