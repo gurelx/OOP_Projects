@@ -1,0 +1,34 @@
+/*****************************************************************************
+                         OOP - Project
+Full Name  : Gurel Sezgin
+Student ID#: 174331215
+Email      : gurel-sezgin@myseneca.ca
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider.
+*****************************************************************************/
+
+In this final project, I have had the chance of repeating almost each object oriented programming 
+principle (modular programming, function and operator overloading, and base/derived/abstract 
+classes). 
+
+I specifically utilized some modern C++ features in this project unless the instructions
+tell me exactly to do one thing. For example, in Vehicle module, I have created the plate and model
+members as std::string instead of dynamically allocated c strings, which save me a lot of time for
+not dealing with resource management, and gave me more safe options to do operations in strings 
+instead of less safe functions like std::strcpy(). 
+
+Since my code is far from being bulletproof, I have modified my code along the milesones and as the
+testers require more and more precision. For instance, I forgot simple requirements like calling the 
+copy constructor of the Vehicle module in copy constructors of Car and Motorcycle until Milestone 4. 
+They were fixed in the final version.
+
+The most challenging part of the project was the final milestone, since I had to remember the class 
+methods I have written weeks ago while bringing whole modules together. For example, I have 
+struggled in a part where I have to compare the plate of a Vehicle to a cstring. I could not access 
+the plate number since the method to get the plate was protected. But there was == overload which I 
+wrote in ms3. 
+
+
+
