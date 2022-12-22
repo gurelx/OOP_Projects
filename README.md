@@ -25,5 +25,5 @@ This project is All Rights Reserved. You cannot modify or redistribute this code
 ## Acknowledgments
 
 For more detailed specifications of the projects:
-* [Seneca-IPC144-Workshops](https://github.com/Seneca-144100/IPC-Workshops)
-* [Seneca-IPC144-Project](https://github.com/Seneca-144100/IPC-Project)
+* [Seneca-OOP244-Workshops](https://github.com/Seneca-244200/OOP-Workshops)
+* [Seneca-OOP244-Project](https://github.com/Seneca-244200/OOP-Project)
