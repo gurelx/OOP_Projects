@@ -2123,7 +2123,7 @@ Before starting to implement the member functions. Let us clarify how the Parkin
 
 The following illustration shows how the Parking Spots array is used to keep track of the parked Vehicles in the Parking. 
 
-![Parking Array](images/parking.png)
+![parking](https://user-images.githubusercontent.com/82119407/210279794-37aecdbe-58ff-4fc6-8838-2783a560eba9.png)
 
 As a Vehicle arrives, a dynamic object of its type (Car or Motorcycle) will get created and set to the Vehicle’s specifications and the address of the object is kept in the next available (null) element of the Parking Spots array. 
 
